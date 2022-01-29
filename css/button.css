@@ -1,15 +1,21 @@
 .button{
-    inline-size: 32px;
-    block-size: 32px;
+    inline-size: 40px;
+    block-size: 40px;
     border: none;
     background: transparent;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+    margin: 0px 5px;
 }
 
 .button:active{
     transform: scale(.9);
+}
+
+.button:hover{
+    background: rgba(0, 128, 128, 0.5);
+    border-radius: 50%;
 }
 
 #play{

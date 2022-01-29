@@ -1,13 +1,21 @@
 @import './button.css';
 
 body{
-    background: #26b4bc;
+    background: #022333;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.test{
+    height: 900px;
 }
 
 .wrapper{
     max-inline-size: 900px;
+    height: 100vh;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .player{

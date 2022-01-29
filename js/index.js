@@ -10,6 +10,7 @@ const handlePlay = ()=>{
 
     $play.hidden = true;
     $pause.hidden = false;
+    $video.muted = false;
 }
 
 const handlePause = ()=>{
