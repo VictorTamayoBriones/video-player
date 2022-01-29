@@ -13,11 +13,17 @@
 <body>
     <div class="wrapper">
         <div class="player">
-            <button class="button" id="backward" aria-label="retroceder 10 segundos" title="retroceder 10 segundos" ></button>
-            <button class="button" id="play" aria-label="reproducir" title="reproducir" ></button>
-            <button class="button" hidden id="pause" aria-label="pause" title="pause" ></button>
-            <button class="button" id="forward" aria-label="avanzar 10 segundos" title="avanzar 10 segundos" ></button>
-            <video class="video" id="video" controls poster="./images/thum.jpg" muted src="./video/PXNDX - Adheridos Separados.mp4"></video>
+            <h2 class="player-title" >Adheridos Separados</h2>
+            <div class="player-actions">
+                <button class="button" id="backward" aria-label="retroceder 10 segundos" title="retroceder 10 segundos" ></button>
+                <button class="button" id="play" aria-label="reproducir" title="reproducir" ></button>
+                <button class="button" hidden id="pause" aria-label="pause" title="pause" ></button>
+                <button class="button" id="forward" aria-label="avanzar 10 segundos" title="avanzar 10 segundos" ></button>
+            </div>
+            <video id="video" poster="./images/thum.jpg" muted src="./video/PXNDX - Adheridos Separados.mp4"></video>
+            <div class="player-progress">
+                <input type="range">
+            </div>
         </div>
     </div>
     <script src="./js/index.js"></script>
