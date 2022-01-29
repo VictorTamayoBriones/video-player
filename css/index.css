@@ -48,3 +48,15 @@ body{
 .player-progress input{
     flex: 1;
 }
+
+.player-overlay{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: .3s opacity;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.player:hover .player-overlay{
+    opacity: 1;
+}
